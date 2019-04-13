@@ -1,3 +1,5 @@
+require 'net/https'
+
 # example:
 # post_json_to_external_url("http://example.com", {text: "hello"}.to_json)
 def post_json_to_external_url(url, payload)
